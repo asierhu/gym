@@ -1,0 +1,19 @@
+<h2 id="actividades">Actividades GYM 4V</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Fecha</th>
+      <th>Lugar</th>
+      <th>Monitor</th>
+      <th>Tipo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let actividad of actividades">
+      <td>{{ actividad.fecha }}</td>
+      <td>{{ actividad.lugar }}</td>
+      <td>{{ actividad.monitor }}</td>
+      <td>{{ actividad.tipo }}</td>
+    </tr>
+  </tbody>
+</table>
